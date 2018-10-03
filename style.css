@@ -194,6 +194,16 @@ iframe {
   height: 100%;
 }
 
+/* Section: Group pic */
+
+.section-group-pic {
+  background: url(./images/Team\ 2018/Juragarage.3Autos.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  min-height: 700px;
+  border-bottom: 1px solid #fbcf23;
+}
+
 /* Section: Map responsive */
 .google-maps {
   overflow: hidden;
