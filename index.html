@@ -1,109 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="HandheldFriendly" content="true">
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link type="text/css" rel="stylesheet" href="./style.css" />
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" href="./images/http___pluspng.com_img-png_renault-logo-png-renault-logo-2015-present-2048x2048-hd-png-2048.ico">
-  <title>Juragarage Märki</title>
-</head>
+    <!-- Import Google Icon Font -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
+    ></script>
 
-<body id="home" class="scrollspy">
-  <!--Section: Navbar-->
-  <header class="main-header">
-    <nav class="transparent">
-      <div id="home" class="container scrollspy">
-        <div class="nav-wrapper">
-          <!--<img class="logo-img responsive-img" src="./images/logos/Webp.net-resizeimage.jpg"> -->
-          <a href="#" class="brand-logo">Juragarage Märki</a>
-          <!--<img class="logo-img brand-logo  left" src="./images/rsz_juragarage_simpel_gross.jpg" alt="logo"> -->
-          <a href="#" data-activates="mobile-nav" class="button-collapse">
-            <i class="fa fa-bars"></i>
-          </a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down navbar">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#team">Team</a>
-            </li>
-            <li>
-              <a href="#aktuelles">Aktuelles</a>
-            </li>
-            <li>
-              <a href="#neuwagen">Neuwagen</a>
-            </li>
-            <li>
-              <a href="#occasionen">Occasionen</a>
-            </li>
-            <li>
-              <a href="#kontakt">Kontakt</a>
-            </li>
-          </ul>
-        
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
 
-          <!--Section: MOBILE-->
-          <ul class="side-nav" id="mobile-nav">
-            <h4 class="yellow-text text-darken-2 center">Juragarage Märki</h4>
-            <li>
-              <div class="divider"></div>
+    <!-- Custom CSS -->
+    <link type="text/css" rel="stylesheet" href="./style.css" />
+
+    <!-- Let browser know website is optimized for mobile -->
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+
+    <!-- Renanault Favicon -->
+    <link
+      rel="icon"
+      href="./images/http___pluspng.com_img-png_renault-logo-png-renault-logo-2015-present-2048x2048-hd-png-2048.ico"
+    />
+
+    <title>Juragarage Märki</title>
+  </head>
+
+  <body>
+    <section class="navbar-trans" id="mainNavbar">
+      <!-- As a heading -->
+      <nav
+        id="scrollNav"
+        class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+      >
+        <a class="navbar-brand" href="./index.html">
+          <img
+            src="./images/logos/RENAULT LOGO_positive_CMYK_print.png"
+            width=""
+            height=""
+            class="d-inline-block "
+            alt="logo"
+          />
+          Juragarage Märki
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarTogglerDemo02"
+        >
+          <ul class="navbar-nav mr-5 mt-2 mt-lg-0">
+            <!-- mr: margin, mt: margin-top -->
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fas fa-home"></i>Aktuelles</a
+              >
             </li>
-            <li>
-              <a href="#home">Home</a>
+            <li class="nav-item">
+              <a class="nav-link" href="./occasionen.html">Occasionen</a>
             </li>
-            <li>
-              <a href="#team">Team</a>
-            </li>
-            <li>
-              <a href="#aktuelles">Aktuelles</a>
-            </li>
-            <li>
-              <a href="#neuwagen">Neuwagen</a>
-            </li>
-            <li>
-              <a href="#occasionen">Occasionen</a>
-            </li>
-            <li>
-              <a href="#kontakt">Kontakt</a>
-            </li>
-            <li>
-              <div class="divider"></div>
+            <li class="nav-item">
+              <a class="nav-link " href="./kontakt.html">Kontakt</a>
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
-  </header>
+      </nav>
+    </section>
 
-  <!--SEction: Aktuelles-->
-  <section id="aktuelles" class="section scrollspy grey lighten-3 section-aktuelles center">
-    <h4 class="center">Aktuelle <span class="yellow-text text-darken-2">Aktionen und Prämien</span></h4>
-    <div class="container">
-      <div class="row aktuelles-img">
-        <div class="col">
-          <img class="aktuelles-1 responsive-img" src="./images/renault-swiss-lager-praemie.jpg" alt="aktuelles-img">
-        </div>
+    <!-- Section: Aktuelles -->
+    <!-- aktualne oferty -->
+    <section id="aktuelles">
+      <div class="container">
+        <h1 class="text-center m-5">
+          Aktuelle <span class="yellow-text">Aktionen und Prämien</span>
+        </h1>
+        <img
+          class="img-fluid aktuelles-img"
+          src="./images/renault-swiss-lager-praemie.jpg"
+          alt="aktuelle aktionen-img"
+        />
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--Section: About us -->
-  <section id="about" class="section scrollspy section-about grey lighten-5">
-    <div class="container aboutus">
-      <div class="row">
-        <div class="col s12 m6">
-          <h4 class=""><span class="juragarage yellow-text text-darken-2">Juragarage Märki</span> kurz vorgestellt</h3>
-            <p class="">Die Juragarage Märki ist seit 32 Jahren Ihr kompetenter Renault Partner.</p>
+    <!-- Section: About us -->
+    <!-- who are we and what we do -->
+    <section id="about" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h1 class="mt-5">
+              <span class="yellow-text">Juragarage Märki</span> kurz vorgestellt
+            </h1>
+            <p class="">
+              Die Juragarage Märki ist seit 32 Jahren Ihr kompetenter Renault
+              Partner.
+            </p>
             <p class="flow-text dienstleistungen">Unsere Dienstleistungen</p>
             <ul class="list">
               <li>Reparaturen und Service sämtlicher Marken</li>
@@ -111,183 +124,164 @@
               <li>Tankstelle</li>
               <li>Abschleppdienst Tag und Nacht</li>
             </ul>
-            <p>Wünschen Sie weitere Informationen über unsere Garage oder unser Angebot, dann stehen wir Ihnen gerne zur
-              Verfügung.
+            <p>
+              Wünschen Sie weitere Informationen über unsere Garage oder unser
+              Angebot, dann stehen wir Ihnen gerne zur Verfügung.
             </p>
-        </div>
-        <div class="col s12 m6 fam-photo">
-          <img src="./images/JuragarageMaerkis.jpg" alt="" class="circle center responsive-img">
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
-
-  <!-- Section: TEAM -->
-
-  <section id="team" class="section section-team scrollspy center grey lighten-4">
-    <h4 class="center">Unser <span class="yellow-text text-darken-2">Team</span></h4>
-  </section>
-  
-  <div class="pics grey lighten-4 center">
-    <div class="team-pictures">
-      <img class="team-pic responsive-img" src="./images/Team 2018/Webp.net-resizeiwwmage.jpg">
-      <p class="name">Hans-Peter Märki</p>
-      <p class="position">Inhaber Geschäftsführer</p>
-    </div>
-
-    <div class="team-pictures">
-      <img class="team-pic responsive-img" src="./images/Team 2018/33.jpg">
-      <p class="name">Margot Märki</p>
-      <p class="position">Inhaberin Administration</p>
-    </div>
-
-    <div class="team-pictures">
-      <img class="team-pic responsive-img" src="./images/Team 2018/W2ebp.net-resizeimage.jpg">
-      <p class="name">Kevin Märki</p>
-      <p class="position">Automechaniker</p>
-    </div>
-
-
-    <div class="team-pictures">
-      <img class="team-pic responsive-img" src="./images/Team 2018/We12bp.net-resizeimage.jpg">
-      <p class="name">Adrian Leuthard</p>
-      <p class="position">Automechaniker</p>
-    </div>
-
-    <div class="team-pictures">
-      <img class="team-pic responsive-img" src="./images/Team 2018/W5ebp.net-resizeimage.jpg">
-      <p class="name">Michael de Groot</p>
-      <p class="position">Automechaniker</p>
-    </div>
-
-  </div>
-  </section>
-
-  <!--Section: Neuwagen - external link-->
-  <section id="neuwagen" class="section scrollspy section-neuwagen center">
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <h5 class="neuwagen-h4">Für weitere Informationen über unsere neuen Autos, besuchen Sie <a class="link-renault"
-              href="https://www.renault.ch/de/renault-modellpalette/personenwagen/" target="_blank">Renault Schweiz</a></h5>
+          </div>
+          <div class="col-sm">
+            <img
+              src="./images/JuragarageMaerkis.jpg"
+              alt="Familie Märki"
+              class="img-fluid rounded-circle mt-5"
+            />
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--Section: Occasionen-->
-  <section id="occasionen" class="section scrollspy section-occasionen center ">
-    <h4 class="center h4-occasionen"><span class="yellow-text text-darken-2">Occasionen</span></h4>
-    <div class="autoscout-container">
-      <iframe src="https://www.autoscout24.ch/de/hci/list?design=1312&filter=2730" width="720" height="700" scrolling=auto marginwidth=0
-        marginheight=0 hspace=0 vspace=0 frameborder=0></iframe>
-    </div>
-  </section>
+    <!-- Section: TEAM -->
+    <!-- team intro with images -->
+    <section id="team" class="">
+      <div class="container">
+        <h1 class="text-center h1-team">
+          Unser <span class="yellow-text">Team</span>
+        </h1>
+        <div class="row">
+          <div class="col-sm p-4">
+            <img
+              class="img-fluid team-pic"
+              src="./images/Team_2018/DSC08888light.jpg"
+              alt="Juragarage Märki Inhaber"
+            />
+            <div class="info-box">
+              <h5 class="text-center p-2 name">Hans-Peter Märki</h5>
+              <h6 class="text-center position">Inhaber Geschäftsführer</h6>
+            </div>
+          </div>
 
-<section class="section section-group-pic">
-</section>
+          <div class="col-sm p-4">
+            <img
+              class="img-fluid team-pic"
+              src="./images/Team_2018/M350.jpg"
+              alt="Juragarage Märki Inhaber"
+            />
+            <div class="info-box">
+              <h5 class="text-center p-2 name">Margot Märki</h5>
+              <h6 class="text-center position">Inhaberin Administration</h6>
+            </div>
+          </div>
 
-
-  <!--Section: Image Slider-->
-  <!-- <section class="slider">
-    <ul class="slides">
-    <li>
-      <img class="slider-img responsive-img" src="./images/Koleos_00102069.jpg" alt="">
-    </li>
-    <li>
-        <img class="slider-img2 responsive-img" src="./images/yes2.jpg" alt="">
-      </li>
-      <li>
-          <img class="slider-img responsive-img" src="./images/00128491_Range_Renault.jpg" alt="">
-        </li>
-      </ul>
-  </section> -->
-
-  <!--Section: Occasionen - Autoscaut link-->
-
-
-  <!--Section: Kontakt-->
-
-  <footer id="kontakt" class="section section-kontakt grey lighten-2">
-    <div class="container white-text">
-      <div class="row">
-        <div class="col s12 m6 center">
-          <h5 class="addresse">Adresse:</h5>
-          <p class="addresse">
-            Juragarage Märki <br> Ausserdorfstrasse 19 <br> 5107 Schinznach</p>
-          <p class="phone">
-            <i class="fas fa-phone"></i> <a href="tel:+41 56 443 11 41"> +41 56 443 11 41 </a><br>
-            <i class="fas fa-at"></i> <a class="email" href="mailto:maerki@juragarage.ch">maerki@juragarage.ch</a>
-          </p>
-          <h5 class="zeiten">Öffnungszeiten:</h5>
-          <p class="zeiten">
-            <b>Montag - Freitag</b>: 07:30 – 12:00, 13:30 – 17:30 <br>
-            <b>Samstag</b>: geschlossen (Verkauf nach Vereinbarung)
-          </p>
-        </div>
-        <div class="google-maps col s12 m6 hide-on-small-only map-responsive">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.7455886593657!2d8.141551315998619!3d47.44856160687443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47903fbba2c30cdd%3A0xe9e9f5fd672579cc!2sJuragarage+M%C3%A4rki!5e1!3m2!1sen!2sch!4v1535444667723"
-            width="500" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div class="col-sm p-4">
+            <img
+              class="img-fluid team-pic"
+              src="./images/Team_2018/DSC08877copz.JPG"
+              alt="Juragarage Märki Inhaber"
+            />
+            <div class="info-box">
+              <h5 class="text-center p-2 name">Kevin Märki</h5>
+              <h6 class="text-center position">Automechaniker</h6>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="container">
+        <div class="row flex">
+          <div class="col-4 p-4">
+            <img
+              class="img-fluid team-pic"
+              src="./images/Team_2018/L350.jpg"
+              alt="Juragarage Märki Automechaniker"
+            />
+            <div class="info-box">
+              <h5 class="text-center p-2 name">Adrian Leuthard</h5>
+              <h6 class="text-center position">Automechaniker</h6>
+            </div>
+          </div>
+
+          <div class="col-4 p-4">
+            <img
+              class="img-fluid team-pic"
+              src="./images/Team_2018/MI350.jpg"
+              alt="Juragarage Märki Automechaniker"
+            />
+            <div class="info-box">
+              <h5 class="text-center p-2 name">Michael de Groot</h5>
+              <h6 class="text-center position">Automechaniker</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Kontakt -->
+    <footer id="kontakt" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm text-center">
+            <h5 class="addresse">Adresse:</h5>
+            <p class="addresse">
+              Juragarage Märki <br />
+              Ausserdorfstrasse 19 <br />
+              5107 Schinznach
+            </p>
+            <p class="phone">
+              <i class="fas fa-phone"></i>
+              <a href="tel:+41 56 443 11 41"> +41 56 443 11 41 </a><br />
+              <i class="fas fa-at"></i>
+              <a class="email" href="mailto:maerki@juragarage.ch"
+                >maerki@juragarage.ch</a
+              >
+            </p>
+            <h5 class="zeiten">Öffnungszeiten:</h5>
+            <p class="zeiten">
+              <b>Montag - Freitag</b>: 07:30 – 12:00, 13:30 – 17:30 <br />
+              <b>Samstag</b>: geschlossen (Verkauf nach Vereinbarung)
+            </p>
+          </div>
+
+          <!-- GOOGLE MAPS -->
+          <div class="google-maps d-none d-lg-block map-responsive">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3735.7455886593657!2d8.141551315998619!3d47.44856160687443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47903fbba2c30cdd%3A0xe9e9f5fd672579cc!2sJuragarage+M%C3%A4rki!5e1!3m2!1sen!2sch!4v1535444667723"
+              width="450"
+              height="300"
+              style="border:0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- COPYRIGHT -->
+    <div class="footer-copyright">
+      <div class="container text-center bla">
+        <span class="copyright">© 2018 Juragarage Märki</span>
+      </div>
     </div>
-  </footer>
 
-  <div class="footer-copyright grey lighten-3 center">
-    <div class="container">
-      <span class="copyright">© 2018 Juragarage Märki</span>
-    </div>
-  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- Autoscout -->
+    <script src="https://www.autoscout24.ch/MVC/Content/as24-hci-desktop/js/e.min.js"></script>
 
-  <!--Import jQuery before materialize.js-->
-
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/materialize.min.js"></script>
-  <script src="https://www.autoscout24.ch/MVC/Content/as24-hci-desktop/js/e.min.js"></script>
-
-  <script>
-    $(document).ready(function () {
-      // Custom JS & jQuery here
-      $(".carousel.carousel-slider").carousel({ fullWidth: true });
-
-      // Init Sidenav
-      $(".button-collapse").sideNav({
-        closeOnClick: true
-      });
-
-      // Init Scrollspy
-      $(".scrollspy").scrollSpy();
-
-      // Init Slider 
-      $(".slider").slider({
-        indicators: false,
-        height: 500,
-        transition: 400,
-        interval: 4000
-      });
-    });
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () { scrollFunction() };
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-      } else {
-        document.getElementById("myBtn").style.display = "none";
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-
-
-  </script>
-</body>
-
+    <script></script>
+  </body>
 </html>

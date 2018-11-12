@@ -1,183 +1,118 @@
+@font-face {
+  font-family: 'RenaultLife';
+  src: url('./fonts/RenaultLife');
+  src: url('./fonts/RenaultLife/RenaultLife-Bold.otf');
+  src: url('./fonts/RenaultLife/RenaultLife-Regular.otf');
+}
+
+html,
+body {
+  font-family: 'RenaultLife';
+  height: 100%;
+}
+
+.yellow-text {
+  color: #fbcf23;
+}
+
 /* Section: Navbar */
-.main-header {
-  background: url(./images/00141027.jpg);
+
+#mainNavbar {
+  background: url(./images/Koleos_00102060.jpg);
   background-size: cover;
-  background-position: 50% 63%;
-  min-height: 450px;
-  color: #fff;
+  background-position: 50% 40%;
+  min-height: 500px;
 }
 
-/*
-.logo-img {
-min-height: 30px;
-max-width: 400px;
+.navbar.bg-light {
+  background-color: rgb(236, 236, 236) !important;
+  opacity: 0.8;
+  box-shadow: 1px 1px 80px #888888;
 }
-
-.brand-logo {
-    /* color: #4B3E38 !important; 
-    color: #fff;
-    letter-spacing: 1px !important;
-    position: relative;
-    left: 50px !important;
+.navbar.scrolled {
+  background-color: #e7e7e7 !important;
+  opacity: 1;
 }
-*/
-
-.brand-logo {
-  color: #fad523 !important;
-  letter-spacing: 1px !important;
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.9rem;
+  letter-spacing: 1px;
 }
-
-
-
-nav ul a:hover {
+#scrollNav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 550;
+  color: black;
+  padding: 1rem;
+  letter-spacing: 0.8px;
+}
+#scrollNav .nav-link:hover {
   background-color: #fbcf23;
+  border-radius: 50%;
+}
+.fa-home {
+  margin-right: 10px;
 }
 
-nav ul a {
-  letter-spacing: 0.7px;
-}
-
-.embedded-content-area {
-  height: 900px;
-}
-
-.carousel .carousel-item > img {
-  width: 50%;
-}
-
-
-/* Section: Aktuelles */
-
-.section-aktuelles {
+/* Section: Aktuelles - index.html */
+#aktuelles {
   border: 1px solid #fbcf23;
+  min-height: 600px !important;
+  background-color: #eeeeee;
 }
-
-.aktuelles-1 {
+.aktuelles-img {
   box-shadow: 0 10px 6px -6px #777;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
 }
 
-.card .card-image img {
-  width: 70% !important;
-}
-
-
-/* Section: About us */
-
-
-.section-about {
+/* Section: About us - index.html */
+#about {
   min-height: 500px !important;
-  border-top: 1px solid #fbcf23 !important;
+  border: 1px solid #fbcf23 !important;
 }
-
-.aboutus {
-  margin-top: 55px;
-}
-
 .list li {
   list-style-type: disc !important;
-  position: relative;
-  left: 25px;
+}
+.flex-tem {
+  display: flex !important;
+  justify-content: center !important;
 }
 
-.dienstleistungen {
-  margin-top: -5px !important;
-  margin-bottom: -5px !important;
+/* Section: Team Images - index.html */
+#team {
+  min-height: 850px !important;
+  background-color: #fbfbfb;
 }
-
-.circle {
-  position: relative;
-  bottom: 28px;
+.h1-team {
+  padding: 2rem;
 }
-
-.fam-photo {
-  height: 400px !important;
+.name {
+  font-weight: 900;
 }
-
-
-/* Section: Team */
-
-.section-team {
-  border-top: 1px solid #fbcf23 !important;
+.info-box {
+  border: 1px solid #fbcf23;
+  background-color: #f9f8f7;
 }
-
-.pics {
-  min-height: 450px;
-  padding-bottom: 30px;
+.flex {
   display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  font-family: Roboto, sans-serif;
-  border-bottom: 1px solid #fbcf23 !important;
+  justify-content: center !important;
 }
-
-.team-pictures {
-  justify-content: center;
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.team-pic:hover {
-  transform: scale(1.1);
-}
-
-.team-pic,
-.name {
-  margin: 20px;
-}
-
-.name,
-.position {
-  text-align: center;
-  letter-spacing: 0.8px;
-}
-
-.name {
-  font-weight: bold;
-  margin-bottom: -5px;
-  margin-top: -5px;
-  font-size: 18px;
-  color: #3d3c3c;
-}
-
-.position {
-  font-size: 16px;
-}
-
 .team-pic {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 10px;
 }
 
-/* Section: Neuwagen */
-
-.section-neuwagen {
-  background: url(./images/Clio_RS_00111300.jpg);
-  background-position: 50% 50%;
-  background-size: cover;
-  min-height: 450px;
+/* Section: Ocassionen - occasionen.html */
+#occasionen {
+  border-top: 1px solid #fbcf23 !important;
+  margin-bottom: 20px !important;
+  min-height: 800px !important;
 }
-
-.neuwagen-h4 {
-  font-size: 1.9rem !important;
+#autoscout {
+  min-height: 400px !important;
 }
-
-.link-renault:hover {
-  transition: color 0.5ss;
-  color: #8ba9c3;
-}
-
-/* Section: Ocassionen */
-.section-occasionen {
-  border: 1px solid #fbcf23;
-}
-
-iframe {
+.current-offers {
   margin-top: 15px;
 }
-
 .autoscout-container {
   position: relative;
   padding-bottom: 30%;
@@ -185,7 +120,6 @@ iframe {
   height: 0;
   overflow: hidden;
 }
-
 .autoscout-container iframe {
   position: absolute;
   top: 0;
@@ -194,98 +128,83 @@ iframe {
   height: 100%;
 }
 
-/* Section: Group pic */
-
-.section-group-pic {
-  background: url(./images/Team\ 2018/Juragarage.3Autos.jpg);
+/* Section: Neuwagen - occasionen.html */
+#neuwagen {
+  background: url(./images/Scenic_00109443.JPG);
+  background-position: 50% 60%;
   background-size: cover;
-  background-position: 50% 50%;
-  min-height: 700px;
-  border-bottom: 1px solid #fbcf23;
+  min-height: 500px;
+  border: 1px solid #fbcf23;
 }
-
+.neuwagen-h4 {
+  font-size: 2.5rem !important;
+}
+.link-renault:hover {
+  transition: color 0.5ss;
+  color: #8ba9c3;
+}
 /* Section: Map responsive */
 .google-maps {
   overflow: hidden;
+  padding-right: 40px;
 }
 
-/* Section: Kontakt */
-
+/* Section: Kontakt - index.html & occasionen.html */
+#kontakt {
+  min-height: 400px;
+  padding-top: 60px;
+  border-top: 1px solid #fbcf23;
+  background-color: #e0e0e0;
+}
 .zeiten,
 .addresse,
 .phone {
   color: #4b3e38 !important;
 }
-
 .copyright {
   color: #1f272f;
   position: relative !important;
   top: 4px !important;
 }
-
 .footer-copyright {
   height: 30px;
   border-top: 1px solid #fbcf23;
+  background-color: rgb(247, 245, 245) !important !important;
 }
 
-/* Section: Button Top */
-
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 30px;
-  right: 50px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #fbcf23;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: #555;
+/* Section: Kontakt info - kontakt.html */
+.kontakt-info {
+  border: 1px solid #fbcf23;
+  font-size: 1.2rem;
 }
 
 /* MEDIA QUERIES */
-
 /* Extra small devices (phones, 600px and down) */
-
 @media only screen and (max-width: 600px) {
   .logo-img {
     display: none;
   }
-
   .brand-logo {
     position: relative !important;
     right: 30px !important;
     font-size: 20px !important;
   }
-
   .main-header {
     min-height: 300px !important;
   }
-
-/* SECTION: ABOUT */
-
+  /* SECTION: ABOUT */
   .section-about {
     height: 600px !important;
   }
-
-  .circle  {
+  .circle {
     max-width: 80% !important;
     position: relative;
     right: -40px;
     bottom: -5px;
   }
-
   .aboutus {
     margin-top: -10px !important;
   }
-
   .team-pic {
     max-width: 70% !important;
   }
@@ -293,7 +212,6 @@ iframe {
   .name {
     margin-top: -10px;
   }
-
   .position {
     font-size: 14px;
   }
@@ -306,10 +224,8 @@ iframe {
     letter-spacing: 1px;
     line-height: 1.6;
   }
-
   .section-neuwagen {
     background-position: 60% 50%;
     min-height: 250px !important;
   }
 }
-
