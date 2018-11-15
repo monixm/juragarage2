@@ -26,29 +26,26 @@ body {
 
 .navbar.bg-light {
   background-color: rgb(236, 236, 236) !important;
-  opacity: 0.8;
   box-shadow: 1px 1px 80px #888888;
 }
 .navbar.scrolled {
   background-color: #e7e7e7 !important;
-  opacity: 1;
 }
 .navbar-brand {
   font-weight: bold;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   letter-spacing: 1px;
 }
 #scrollNav .nav-link {
-  font-size: 1.1rem;
   font-weight: 550;
   color: black;
   padding: 1rem;
   letter-spacing: 0.8px;
 }
 #scrollNav .nav-link:hover {
-  background-color: #fbcf23;
-  border-radius: 50%;
+  color: #f3c921;
 }
+
 .fa-home {
   margin-right: 10px;
 }
@@ -175,7 +172,7 @@ body {
 /* Section: Kontakt info - kontakt.html */
 .kontakt-info {
   border: 1px solid #fbcf23;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 /* MEDIA QUERIES */
