@@ -53,13 +53,14 @@ body {
 /* Section: Aktuelles - index.html */
 #aktuelles {
   border: 1px solid #fbcf23;
-  min-height: 600px !important;
   background-color: #eeeeee;
+  min-height: 550px;
 }
 .aktuelles-img {
   box-shadow: 0 10px 6px -6px #777;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
+  margin-top: 20px;
 }
 
 /* Section: About us - index.html */
@@ -134,7 +135,7 @@ body {
   border: 1px solid #fbcf23;
 }
 .neuwagen-h4 {
-  font-size: 2.5rem !important;
+  font-size: 2.5rem;
 }
 .link-renault:hover {
   transition: color 0.5ss;
@@ -178,32 +179,30 @@ body {
 /* MEDIA QUERIES */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .logo-img {
-    display: none;
+  /* GENERAL */
+  h1 {
+    font-size: 2rem;
   }
-  .brand-logo {
-    position: relative !important;
-    right: 30px !important;
-    font-size: 20px !important;
+  /* NAVBAR */
+  .logo {
+    width: 80px;
   }
-  .main-header {
-    min-height: 300px !important;
+  #mainNavbar {
+    min-height: 350px;
+  }
+  /* SECTION: AKTUELLES */
+  #aktuelles {
+    min-height: 350px;
   }
   /* SECTION: ABOUT */
   .section-about {
     height: 600px !important;
   }
-  .circle {
-    max-width: 80% !important;
-    position: relative;
-    right: -40px;
-    bottom: -5px;
+  .rounded-circle {
+    margin: 0 auto !important;
   }
-  .aboutus {
-    margin-top: -10px !important;
-  }
-  .team-pic {
-    max-width: 70% !important;
+  #about {
+    height: 760px;
   }
 
   .name {
@@ -212,14 +211,13 @@ body {
   .position {
     font-size: 14px;
   }
+
+  /* Section: Neuwgaen */
+  #neuwagen {
+    min-height: 300px;
+  }
   .neuwagen-h4 {
-    color: white;
-    font-size: 14px !important;
-    position: relative;
-    top: 159px;
-    left: 20px;
-    letter-spacing: 1px;
-    line-height: 1.6;
+    font-size: 1.5rem;
   }
   .section-neuwagen {
     background-position: 60% 50%;
