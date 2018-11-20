@@ -20,7 +20,7 @@ body {
 #mainNavbar {
   background: url(./images/Koleos_00102060.jpg);
   background-size: cover;
-  background-position: 50% 40%;
+  background-position: 50% 30%;
   min-height: 500px;
 }
 
@@ -65,7 +65,7 @@ body {
 
 /* Section: About us - index.html */
 #about {
-  min-height: 500px !important;
+  min-height: 450px !important;
   border: 1px solid #fbcf23 !important;
 }
 .list li {
@@ -173,7 +173,7 @@ body {
 /* Section: Kontakt info - kontakt.html */
 .kontakt-info {
   border: 1px solid #fbcf23;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 /* MEDIA QUERIES */
@@ -189,6 +189,9 @@ body {
   }
   #mainNavbar {
     min-height: 350px;
+  }
+  .navbar-brand {
+    font-size: 1rem !important;
   }
   /* SECTION: AKTUELLES */
   #aktuelles {
