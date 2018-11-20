@@ -170,7 +170,7 @@ body {
 .footer-copyright {
   height: 30px;
   border-top: 1px solid #fbcf23;
-  background-color: rgb(247, 245, 245) !important !important;
+  background-color: rgb(247, 245, 245) !important;
 }
 
 /* Section: Kontakt info - kontakt.html */
@@ -230,8 +230,16 @@ body {
     background-position: 60% 50%;
     min-height: 250px !important;
   }
-
+  /* Section: Kontakt */
   #kontakt {
     padding-top: -20px;
+  }
+  /* Section: Kontakt info - kontakt.html */
+  .product-item {
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+  .padding {
+    padding-top: 20px;
   }
 }
