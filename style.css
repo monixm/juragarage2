@@ -194,7 +194,7 @@ body {
     min-height: 350px;
   }
   .navbar-brand {
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
   }
   /* SECTION: AKTUELLES */
   #aktuelles {
@@ -219,9 +219,19 @@ body {
   .info-box {
     max-width: 350px;
   }
+  /* Section: Team */
+  #team {
+    padding-bottom: 30px;
+  }
+  .team-container {
+    padding-top: -10px;
+  }
   /* Section: Neuwgaen */
   #neuwagen {
     min-height: 300px;
+  }
+  .h1-team {
+    padding: 1rem;
   }
   .neuwagen-h4 {
     font-size: 1.5rem;
