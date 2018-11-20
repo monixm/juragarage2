@@ -240,6 +240,6 @@ body {
     column-count: 2;
   }
   .padding {
-    padding-top: 20px;
+    padding: 20px;
   }
 }
