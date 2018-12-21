@@ -377,6 +377,10 @@ fieldset {
   .carousel-review {
     height: 320px !important;
   }
+  .carousel-review h2 {
+    margin-left: -1.5rem !important;
+    margin-right: -1.5rem !important;
+  }
   .side-img img {
     height: 100px;
     margin-left: -180px;
