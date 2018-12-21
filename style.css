@@ -106,31 +106,50 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* Section: Ocassionen - occasionen.html */
-#occasionen {
+/* Section: Index.html / Reviews */
+.carousel-review {
+  height: 250px;
   border-top: 1px solid #fbcf23 !important;
-  margin-bottom: 20px !important;
-  min-height: 800px !important;
 }
-#autoscout {
-  min-height: 400px !important;
+.svg-inline--fa.fa-w-18 {
+  color: #fbcf23;
 }
-.current-offers {
-  margin-top: 15px;
-}
-.autoscout-container {
-  position: relative;
-  padding-bottom: 30%;
-  padding-top: 35px;
-  height: 0;
-  overflow: hidden;
-}
-.autoscout-container iframe {
+
+.side-img {
   position: absolute;
-  top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  right: 0;
+}
+.side-img img {
+  position: relative;
+  left: 100%;
+  margin-left: -350px;
+  top: -170px;
+}
+
+/* Section: Ocassionen - occasionen.html */
+#viewoccasionen {
+  border-top: 1px solid #fbcf23 !important;
+}
+.car-name {
+  font-weight: bolder;
+}
+.car-title {
+  border-bottom: 3px solid #fbcf23;
+}
+.price {
+  color: #fbcf23;
+  font-weight: bold;
+}
+.autoscout:hover {
+  color: #f3c921;
+  text-decoration: none;
+}
+.svg-inline--fa.fa-w-14,
+.svg-inline--fa.fa-w-16 {
+  margin-right: 10px;
 }
 
 /* Section: Neuwagen - occasionen.html */
@@ -139,7 +158,7 @@ body {
   background-position: 50% 60%;
   background-size: cover;
   min-height: 500px;
-  border: 1px solid #fbcf23;
+  border-top: 1px solid #fbcf23;
 }
 .neuwagen-h4 {
   font-size: 2.5rem;
@@ -152,6 +171,126 @@ body {
 .google-maps {
   overflow: hidden;
   padding-right: 40px;
+}
+
+/* Setion: View.html: contact form */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#contact input[type='text'],
+#contact input[type='email'],
+#contact input[type='tel'],
+#contact input[type='url'],
+#contact textarea,
+#contact button[type='submit'] {
+  font: 400 12px/16px 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #f9f9f9;
+  padding: 25px;
+  margin: 50px 0;
+}
+
+#contact h3 {
+  color: #fbcf23;
+  display: block;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type='text'],
+#contact input[type='email'],
+#contact input[type='tel'],
+#contact input[type='url'],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type='text']:hover,
+#contact input[type='email']:hover,
+#contact input[type='tel']:hover,
+#contact input[type='url']:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type='submit'] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #fbcf23;
+  color: #fff;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type='submit']:hover {
+  background: #fbcf23;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type='submit']:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #999;
+}
+::-webkit-input-placeholder {
+  color: #888;
+}
+:-moz-placeholder {
+  color: #888;
+}
+::-moz-placeholder {
+  color: #888;
+}
+:-ms-input-placeholder {
+  color: #888;
 }
 
 /* Section: Kontakt - index.html & occasionen.html */
@@ -189,6 +328,10 @@ body {
   /* GENERAL */
   h1 {
     font-size: 1.3rem !important;
+  }
+  h4 {
+    font-size: 1rem !important;
+    padding-top: 20px !important;
   }
   /* NAVBAR */
   .logo {
@@ -244,6 +387,14 @@ body {
     background-position: 60% 50%;
     min-height: 250px !important;
   }
+  /* Section: View.html */
+  #viewoccasionen h1 {
+    margin-bottom: -3rem !important;
+  }
+  .price {
+    padding-bottom: -3rem !important;
+  }
+
   /* Section: Kontakt */
   #kontakt {
     padding-top: 25px;
@@ -256,5 +407,13 @@ body {
   }
   .padding {
     padding: 20px 20px 0 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%;
   }
 }

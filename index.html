@@ -216,6 +216,78 @@
       </div>
     </section>
 
+    <!-- Reviews -->
+    <div class="container-fluid carousel-review">
+      <div class="col p-3">
+        <h2 class="text-center m-4">
+          Unsere Kunden über <span class="yellow-text">uns</span>
+        </h2>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+              <h5 class="text-center p-2"><em>Alles beste</em></h5>
+              <i class="fas fa-star"></i> <i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+              <p class="text-center p-2">Snezan Valanovic</p>
+            </div>
+            <div class="carousel-item">
+              <h5 class="text-center p-2">
+                <em
+                  >Sehr kompetent, hilfsbereit, zuverlässig und schneller
+                  Service</em
+                >
+              </h5>
+              <i class="fas fa-star"></i> <i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+              <p class="text-center p-2">Dla G</p>
+            </div>
+            <div class="carousel-item">
+              <i class="fas fa-star"></i> <i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="far fa-star"></i
+              ><i class="far fa-star"></i>
+              <p class="text-center p-2">Christiaan Verboon</p>
+            </div>
+            <div class="carousel-item">
+              <i class="fas fa-star"></i> <i class="fas fa-star"></i
+              ><i class="fas fa-star"></i><i class="fas fa-star"></i
+              ><i class="fas fa-star"></i>
+              <p class="text-center p-2">Ramona Peter</p>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="side-img">
+        <img class="img-fluid" src="./images/renault_PNG53.png" />
+      </div>
+    </div>
+
     <!-- Section: Kontakt -->
     <footer id="kontakt">
       <div class="container">
@@ -286,6 +358,10 @@
     <!-- Autoscout -->
     <script src="https://www.autoscout24.ch/MVC/Content/as24-hci-desktop/js/e.min.js"></script>
 
-    <script></script>
+    <script>
+      $('.carousel').carousel({
+        interval: 3000
+      });
+    </script>
   </body>
 </html>
