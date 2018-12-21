@@ -373,6 +373,15 @@ fieldset {
   .team-container {
     padding-top: -10px;
   }
+  /* Section: Index.html / side-img */
+  .carousel-review {
+    height: 320px !important;
+  }
+  .side-img img {
+    height: 100px;
+    margin-left: -180px;
+    top: -90px;
+  }
   /* Section: Neuwgaen */
   #neuwagen {
     min-height: 300px;
