@@ -74,7 +74,8 @@ body {
 /* Section: About us - index.html */
 #about {
   min-height: 450px !important;
-  border: 1px solid #fbcf23 !important;
+  border-top: 1px solid #fbcf23 !important;
+  border-bottom: 1px solid #fbcf23 !important;
 }
 .list li {
   list-style-type: disc !important;
@@ -325,7 +326,8 @@ fieldset {
 
 /* Section: Kontakt info - kontakt.html */
 .kontakt-info {
-  border: 1px solid #fbcf23;
+  border-top: 1px solid #fbcf23;
+  border-bottom: 1px solid #fbcf23;
   font-size: 1rem;
 }
 
@@ -342,7 +344,7 @@ fieldset {
   }
   /* NAVBAR */
   .logo {
-    height: 28px;
+    height: 25px;
   }
   #mainNavbar {
     min-height: 350px;
