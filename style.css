@@ -115,6 +115,10 @@ body {
   color: #fbcf23;
 }
 
+.grey-box .svg-inline--fa.fa-w-18 {
+  margin-right: 8px;
+  color: black;
+}
 .side-img {
   position: absolute;
   left: 0;
@@ -135,10 +139,10 @@ body {
 }
 .car-name {
   font-weight: bolder;
+  border-bottom: 1px solid #fbcf23;
+  border-spacing: 15px;
 }
-.car-title {
-  border-bottom: 3px solid #fbcf23;
-}
+
 .price {
   color: #fbcf23;
   font-weight: bold;
@@ -157,15 +161,14 @@ body {
   background: url(./images/Scenic_00109443.JPG);
   background-position: 50% 60%;
   background-size: cover;
-  min-height: 500px;
+  min-height: 450px;
   border-top: 1px solid #fbcf23;
 }
-.neuwagen-h4 {
-  font-size: 2.5rem;
-}
+
 .link-renault:hover {
   transition: color 0.5ss;
-  color: #8ba9c3;
+  color: #fbcf23;
+  text-decoration: none;
 }
 /* Section: Map responsive */
 .google-maps {
@@ -429,4 +432,8 @@ fieldset {
     width: 25%;
     max-width: 100%;
   }
+}
+
+.logo {
+  height: 40px !important;
 }
