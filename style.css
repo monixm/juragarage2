@@ -67,10 +67,6 @@ body {
   margin-top: 20px;
 }
 
-.heading {
-  margin-top: 2.5rem !important;
-}
-
 /* Section: About us - index.html */
 #about {
   min-height: 450px !important;
@@ -90,9 +86,7 @@ body {
   min-height: 850px !important;
   background-color: #fbfbfb;
 }
-.h1-team {
-  padding: 1.3rem;
-}
+
 .name {
   font-weight: 900;
 }
@@ -163,8 +157,8 @@ body {
 
 /* Section: Neuwagen - occasionen.html */
 #neuwagen {
-  background: url(./images/Scenic_00109443.JPG);
-  background-position: 50% 60%;
+  background: url(./Clio_RS_00111300_49.jpg);
+  background-position: 50% 50%;
   background-size: cover;
   min-height: 450px;
   border-top: 1px solid #fbcf23;
@@ -282,7 +276,6 @@ fieldset {
 #contact button[type='submit']:active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
-
 #contact input:focus,
 #contact textarea:focus {
   outline: 0;
@@ -300,7 +293,6 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
-
 /* Section: Kontakt - index.html & occasionen.html */
 #kontakt {
   min-height: 400px;
@@ -313,6 +305,7 @@ fieldset {
 .phone {
   color: #4b3e38 !important;
 }
+
 .copyright {
   color: #1f272f;
   position: relative !important;
@@ -323,14 +316,12 @@ fieldset {
   border-top: 1px solid #fbcf23;
   background-color: rgb(247, 245, 245) !important;
 }
-
 /* Section: Kontakt info - kontakt.html */
 .kontakt-info {
   border-top: 1px solid #fbcf23;
   border-bottom: 1px solid #fbcf23;
   font-size: 1rem;
 }
-
 /* MEDIA QUERIES */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -351,10 +342,12 @@ fieldset {
   }
   .navbar-brand {
     font-size: 1.2rem !important;
-  }
-  /* SECTION: AKTUELLES */
+  } /* SECTION: AKTUELLES */
   #aktuelles {
     min-height: 260px !important;
+  }
+  #aktuelles h1 {
+    padding-top: 0 !important;
   }
   /* SECTION: ABOUT */
   .section-about {
@@ -381,8 +374,7 @@ fieldset {
   }
   .team-container {
     padding-top: -10px;
-  }
-  /* Section: Index.html / side-img */
+  } /* Section: Index.html / side-img */
   .carousel-review {
     height: 320px !important;
   }
@@ -402,8 +394,8 @@ fieldset {
   .h1-team {
     padding: 1rem;
   }
-  .neuwagen-h4 {
-    font-size: 1.5rem;
+  #neuwagen h3 {
+    font-size: 1.2rem;
   }
   .section-neuwagen {
     background-position: 60% 50%;
@@ -416,13 +408,11 @@ fieldset {
   .price {
     padding-bottom: -3rem !important;
   }
-
   /* Section: Kontakt */
   #kontakt {
     padding-top: 25px;
     margin-bottom: -30px;
-  }
-  /* Section: Kontakt info - kontakt.html */
+  } /* Section: Kontakt info - kontakt.html */
   .product-item {
     -webkit-column-count: 2;
     column-count: 2;
@@ -431,7 +421,6 @@ fieldset {
     padding: 20px 20px 0 20px;
   }
 }
-
 @media (min-width: 768px) {
   .carousel-multi-item-2 .col-md-3 {
     float: left;
