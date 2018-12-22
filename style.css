@@ -18,7 +18,7 @@ body {
 /* Section: Navbar */
 
 #mainNavbar {
-  background: url(./images/00127667_Captur_Kadjar_Koleos.JPG);
+  background: url(./00127665_Captur_Kadjar_Koleos_50_1_50.jpg);
   background-size: cover;
   background-position: 50% 80%;
   min-height: 500px;
@@ -52,7 +52,7 @@ body {
 
 /* Section: Aktuelles - index.html */
 #aktuelles {
-  border: 1px solid #fbcf23;
+  border-top: 1px solid #fbcf23;
   background-color: #eeeeee;
   min-height: 550px;
 }
