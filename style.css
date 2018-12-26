@@ -176,7 +176,7 @@ body {
 }
 
 /* Setion: View.html: contact form */
-
+/* 
 * {
   margin: 0;
   padding: 0;
@@ -292,7 +292,7 @@ fieldset {
 }
 :-ms-input-placeholder {
   color: #888;
-}
+} */
 /* Section: Kontakt - index.html & occasionen.html */
 #kontakt {
   min-height: 400px;
