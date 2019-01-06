@@ -335,7 +335,7 @@
           <form id="contact" action="https://formspree.io/monika.malecka19@gmail.com" method="POST" />
             <h3>Interessiert? Kontaktieren Sie uns</h3>
             <fieldset>
-              <input placeholder="Name" name="name"  type="name" tabindex="1" >     
+              <input placeholder="Name" name="name" type="text" tabindex="1" >     
             </fieldset>
             <fieldset>
               <input placeholder="E-Mail-Adresse" name="email" type="email" tabindex="2" >
@@ -343,12 +343,11 @@
             <fieldset>
               <input placeholder="Telefonnummer" name="tel" type="tel" tabindex="3" >
             </fieldset>
+            <fieldset>
+              <textarea placeholder="Nachricht" name="message" type="text" tabindex="5" ></textarea>
             </fieldset>
             <fieldset>
-              <textarea placeholder="Nachricht" name="nachricht" type="text"  tabindex="5" ></textarea>
-            </fieldset>
-            <fieldset>
-              <button type="submit" value="Send" id="contact-submit" data-submit="...Sending">Submit</button>
+              <button id="contact-submit" type="submit" value="Send" data-submit="...Sending">Submit</button>
             </fieldset>
           </form>
         </div>
