@@ -57,12 +57,12 @@ body {
 /* Section: Aktuelles - index.html */
 #aktuelles {
   border-top: 1px solid #fbcf23;
-  background-color: #eeeeee;
-  min-height: 550px;
+  background-color: #f8f8f8;
+  min-height: 850px;
 }
 .aktuelles-img {
   box-shadow: 0 10px 6px -6px #777;
-  -webkit-box-shadow: 0 10px 6px -6px #777;
+  8-webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
   margin-top: 20px;
 }
@@ -300,10 +300,22 @@ fieldset {
   color: #888;
 }
 
+/* Section: Neuwagen */
+.btn-outline-warning a {
+  color: #212529;
+}
+.btn-outline-warning a:hover {
+  text-decoration: none !important;
+  backrgound-color: #fbcf23;
+}
+.neuwagen-preise {
+  font-size: 0.9rem;
+  color: #888;
+}
+
 /* Section: Kontakt - index.html & occasionen.html */
 #kontakt {
-  min-height: 400px;
-  padding-top: 60px;
+  min-height: 420px;
   border-top: 1px solid #fbcf23;
   background-color: #e0e0e0;
 }
@@ -422,7 +434,7 @@ fieldset {
   /* Section: Kontakt */
   #kontakt {
     padding-top: 25px;
-    margin-bottom: -30px;
+    /* margin-bottom: -30px; */
   } /* Section: Kontakt info - kontakt.html */
   .product-item {
     -webkit-column-count: 2;
