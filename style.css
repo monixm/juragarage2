@@ -311,6 +311,14 @@ fieldset {
   text-decoration: none !important;
   backrgound-color: #fbcf23;
 }
+.btn-outline-warning:hover {
+  background: #fbcf23 !important;
+}
+.btn-outline-warning {
+  color: rgb(37, 36, 36);
+  opacity: 0.9;
+}
+
 .neuwagen-preise {
   font-size: 0.9rem;
   color: #888;
@@ -457,18 +465,4 @@ fieldset {
     width: 25%;
     max-width: 100%;
   }
-}
-
-.car-hover img {
-  margin-left: 0px;
-  -webkit-transition: margin 1s ease;
-  -moz-transition: margin 1s ease;
-  -o-transition: margin 1s ease;
-  -ms-transition: margin 1s ease;
-  transition: margin 1s ease;
-}
-
-.car-hover img:hover {
-  transform: translate(-10px, -10px);
-  background: url('./smoke.png');
 }
