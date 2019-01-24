@@ -363,7 +363,11 @@ fieldset {
     font-size: 1.2rem !important;
   } /* SECTION: AKTUELLES */
   #aktuelles {
-    min-height: 260px !important;
+    min-height: 400px !important;
+  }
+  .aktuelles-img {
+    height: 270px !important;
+    width: 90% !important;
   }
   #aktuelles h1 {
     padding-top: 0 !important;
