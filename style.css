@@ -301,6 +301,9 @@ fieldset {
 }
 
 /* Section: Neuwagen */
+#car-listing {
+  border-top: 1px solid #fbcf23;
+}
 .btn-outline-warning a {
   color: #212529;
 }
