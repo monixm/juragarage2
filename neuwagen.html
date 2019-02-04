@@ -71,6 +71,8 @@
         });
       });
     </script>
+    <!-- Ajax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
   <body>
@@ -128,11 +130,38 @@
       </nav>
     </section>
 
-    <!-- Section: Neuwagen -->
+    <!-- Section: Car-listing -->
     <section class="car-listing">
       <h1 class="text-center mt-4 pt-2">
         Renault <span class="yellow-text">Neuwagenpakette</span>
       </h1>
+      <div
+        class="row mt-4 pt-3 m-0 p-0 align-items-center justify-content-center circle"
+      >
+        <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+        ><i class="fas fa-circle"></i>
+      </div>
+      <h3 class="text-center mt-3 pt-3">
+        <strong>Personenwagen</strong></span>
+      </h3>
+      <!-- <div class="mini-menu">
+        <div class="row p-0 m-0 justify-content-center align-items-center">
+          <h6 class="text-center p-2 mini-menu-item">
+            <a href="https://www.juragarage.ch/neuwagen">Personenwagen</a>
+          </h6>
+          <h6 class="text-center p-2 mini-menu-item">
+            <a href="#">Elektrofahrzeuge</a>
+          </h6>
+          <h6 class="text-center p-2 mini-menu-item">
+            <a href="#">Renault Sport</a>
+          </h6>
+          <h6 class="text-center p-2 mini-menu-item">
+            <a href="#">Nutzfahrzeuge</a>
+          </h6>
+        </div>
+        <div id="result"></div>
+      </div> -->
+
       <div class="container mt-4 mb-4 pt-4 pb-4">
         <div class="row text-center justify-content-center">
           <div class="col-sm-3">
@@ -151,7 +180,6 @@
               </button></a
             >
           </div>
-
           <div class="col-sm-3">
             <a
               href="https://de.renault.ch/personenwagen/twingo.html"
@@ -423,6 +451,293 @@
             >
           </div>
         </div>
+      </div>
+      <!-- Elektrofahrzeuge -->
+      <div
+      class="row m-0 p-0 align-items-center justify-content-center circle"
+    >
+      <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+      ><i class="fas fa-circle"></i>
+    </div>
+    <h3 class="text-center mt-3 pt-3">
+      <strong>Elektrofahrzeuge</strong>
+    </h3>
+      <div class="container mt-4 mb-4 pt-4 pb-4">
+      <div class="container mb-4 pb-4">
+        <div class="row m-0 p-0 text-center justify-content-center">
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/elektroautos/twizy.html"
+              target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/twizy.png"
+            /></a>
+            <p>TWIZY</p>
+            <p class="neuwagen-preise">Ab CHF 9’900</p>
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/pricelists/Renault_Twizy_PL_d.pdf"
+              target="_blank"
+              ><button type="button" class="btn btn-outline-warning">
+                Preise Liste
+              </button></a
+            >
+          </div>
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/elektroautos/zoe.html"
+              target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/zoeelek.png"
+            /></a>
+            <p>ZOE</p>
+            <p class="neuwagen-preise">Ab CHF 25’650</p>
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/pricelists/Renault_ZOE_PL_d.pdf"
+              target="_blank"
+              ><button type="button" class="btn btn-outline-warning">
+                Preise Liste
+              </button></a
+            >
+          </div>
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/elektroautos/kangoo-ze.html"
+              target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/kangoo2.png"
+            /></a>
+            <p>KANGOO Z.E.</p>
+            <p class="neuwagen-preise">Ab CHF 28’550</p>
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/pricelists/Renault_Kangoo_ZE_PL_d.pdf"
+              target="_blank"
+              ><button type="btn" class="btn btn-outline-warning">
+                Preise Liste
+              </button></a
+            >
+          </div>
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/elektroautos/master-ze.html"
+              target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/master.png"
+            /></a>
+            <p>MASTER Z.E.</p>
+            <p class="neuwagen-preise">Ab CHF 69’400</p>
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/brochures/Renault_Neuer_Master_ZE_BR_d.pdf"
+              target="_blank"
+              ><button type="btn" class="btn btn-outline-warning">
+                Broschüre
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- Renault Sport -->
+      <div
+        class="row mt-4 pt-3 m-0 p-0 align-items-center justify-content-center circle"
+      >
+        <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+        ><i class="fas fa-circle"></i>
+      </div>
+      <h3 class="text-center mt-3 pt-3">
+        <strong>Renault Sport</strong>
+      </h3>
+      <div class="container mt-4 mb-4 pt-4 pb-4">
+      <div class="container mb-4 pb-4">
+        <div class="row m-0 p-0 text-center justify-content-center">
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/renault-sport/twingo-gt.html"
+              target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/twingo_gt.png"
+            /></a>
+            <p>TWINGO GT</p>
+            <!-- <p class="neuwagen-preise">Ab CHF 9’900</p> -->
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/pricelists/Renault_Twingo_PL_d.pdf.asset.pdf/1546357589260.pdf"
+              target="_blank"
+              ><button type="button" class="btn btn-outline-warning">
+                Preise Liste
+              </button></a
+            >
+          </div>
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/renault-sport/clio-rs.html"
+              target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/clio_rt.png"
+            /></a>
+            <p>CLIO R.S.</p>
+            <p class="neuwagen-preise">Ab CHF 32’490</p>
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/pricelists/Renault_Clio_RS_PL_d.pdf"
+              target="_blank"
+              ><button type="button" class="btn btn-outline-warning">
+                Preise Liste
+              </button></a
+            >
+          </div>
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/renault-sport/megane-gt.html"
+              target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/megane_gt.png"
+            /></a>
+            <p>MEGANE GT</p>
+            <!-- <p class="neuwagen-preise">Ab CHF 28’550</p> -->
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/pricelists/Renault_Neuer_Megane_PL_d.pdf.asset.pdf/1542976332965.pdf"
+              target="_blank"
+              ><button type="btn" class="btn btn-outline-warning">
+                Preise Liste
+              </button></a
+            >
+          </div>
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/renault-sport/megane-gt-grandtour.html"
+              target="_blank"
+              ><img
+                class="img-fluid"
+                src="neuwagen/images/megane_gt_grandtour.png"
+            /></a>
+            <p>MEGANE GT GRANDTOUR</p>
+            <!-- <p class="neuwagen-preise">Ab CHF 69’400</p> -->
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/pricelists/Renault_Neuer_Megane_Grandtour_PL_d.pdf.asset.pdf/1542976343351.pdf"
+              target="_blank"
+              ><button type="btn" class="btn btn-outline-warning">
+                Preise Liste
+              </button></a
+            >
+          </div>
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/renault-sport/megane-rs.html"
+              target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/megane_rs.png"
+            /></a>
+            <p>MEGANE R.S.</p>
+            <p class="neuwagen-preise">Ab CHF 38’900</p>
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/pricelists/Renault_Megane_RS_PL_d.pdf"
+              target="_blank"
+              ><button type="btn" class="btn btn-outline-warning">
+                Preise Liste
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- Nutzfahrzeuge -->
+      <div
+        class="row mt-4 pt-3 m-0 p-0 align-items-center justify-content-center circle"
+      >
+        <i class="fas fa-circle"></i><i class="fas fa-circle"></i
+        ><i class="fas fa-circle"></i>
+      </div>
+      <h3 class="text-center mt-3 pt-3">
+        <strong>Nutzfahrzeuge</strong>
+      </h3>
+      <div class="container mt-3 mb-3 pt-4 pb-4">
+      <div class="container mb-4 pb-4">
+        <div class="row m-0 p-0 text-center justify-content-center">
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/personenwagen/alaskan.html"
+              target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/alaskan.png"
+            /></a>
+            <p>ALASKAN</p>
+            <p class="neuwagen-preise">Ab CHF 31’700</p>
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/pricelists/Renault_Alaskan_PL_d.pdf.asset.pdf/1546446771256.pdf"
+              target="_blank"
+              ><button type="button" class="btn btn-outline-warning">
+                Preise Liste
+              </button></a
+            >
+          </div>
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/vans/kangoo-express.html"
+              target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/kangoo_express.png"
+            /></a>
+            <p>KANGOO Express</p>
+            <p class="neuwagen-preise">Ab CHF 10’900</p>
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/brochures/Renault_Kangoo_Express_BR_d.pdf"
+              target="_blank"
+              ><button type="button" class="btn btn-outline-warning">
+                Broschüre
+              </button></a
+            >
+          </div>
+
+          <div class="col-sm-3">
+            <a href="https://de.renault.ch/vans/trafic.html" target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/trafic.png"
+            /></a>
+            <p>TRAFIC</p>
+            <p class="neuwagen-preise">Ab CHF 25’800</p>
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/brochures/Renault_Neuer_Trafic_BR_d.pdf.asset.pdf/1540989686213.pdf"
+              target="_blank"
+              ><button type="btn" class="btn btn-outline-warning">
+                Broschüre
+              </button></a
+            >
+          </div>
+          <div class="col-sm-3">
+            <a href="https://de.renault.ch/vans/master.html" target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/master_van.png"
+            /></a>
+            <p>MASTER</p>
+            <p class="neuwagen-preise">Ab CHF 29’150</p>
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/brochures/Renault_Neuer_Master_BR_d.pdf.asset.pdf/1542204298517.pdf"
+              target="_blank"
+              ><button type="btn" class="btn btn-outline-warning">
+                Broschüre
+              </button></a
+            >
+          </div>
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/elektroautos/kangoo-ze.html"
+              target="_blank"
+              ><img class="img-fluid" src="neuwagen/images/kangoo2.png"
+            /></a>
+            <p>KANGOO Z.E.</p>
+            <p class="neuwagen-preise">Ab CHF 28’550</p>
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/pricelists/Renault_Kangoo_ZE_PL_d.pdf"
+              target="_blank"
+              ><button type="btn" class="btn btn-outline-warning">
+                Preise Liste
+              </button></a
+            >
+          </div>
+          <div class="col-sm-3">
+            <a
+              href="https://de.renault.ch/elektroautos/master-ze.html"
+              target="_blank"
+              ><img class="img-fluid" src="./neuwagen/images/master.png"
+            /></a>
+            <p>MASTER Z.E.</p>
+            <p class="neuwagen-preise">Ab CHF 69’400</p>
+            <a
+              href="https://cdn.group.renault.com/ren/ch/renault-new-cars/brochures/Renault_Neuer_Master_ZE_BR_d.pdf"
+              target="_blank"
+              ><button type="btn" class="btn btn-outline-warning">
+                Broschüre
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
       </div>
     </section>
 
