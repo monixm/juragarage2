@@ -321,7 +321,7 @@ fieldset {
 }
 
 /* Section: Neuwagen */
-#car-listing {
+.car-listing {
   border-top: 1px solid #fbcf23;
 }
 .btn-outline-warning a {
@@ -343,7 +343,9 @@ fieldset {
   font-size: 0.9rem;
   color: #888;
 }
-
+.mini-menu-item {
+  display: inline;
+}
 /* Section: Kontakt - index.html & occasionen.html */
 #kontakt {
   /* min-height: 420px; */
