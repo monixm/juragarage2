@@ -201,6 +201,23 @@ body {
   padding-right: 40px;
 }
 
+/* Section: Multimedia */
+.warning {
+  height: 60px;
+  background-color: #be0e0d;
+  border-top: 1px solid #fbcf23;
+  letter-spacing: 1px;
+  color: rgb(228, 220, 220);
+}
+
+#multimedia .btn-outline-warning {
+  display: block;
+  width: 300px;
+}
+
+#multimedia img {
+  box-shadow: 1px 1px 80px #888888;
+}
 /* Setion: View.html: contact form */
 
 * {
@@ -498,6 +515,25 @@ fieldset {
   .price {
     padding-bottom: -3rem !important;
   }
+  /* Multimedia */
+  .warning h3 {
+    font-size: 0.9rem !important;
+  }
+  #multimedia h3 {
+    font-size: 1.2rem;
+  }
+  #multimedia .btn-outline-warning {
+    letter-spacing: 0.8px;
+    font-size: 0.8rem;
+  }
+  #multimedia .buttons {
+    justify-content: center;
+    align-self: center;
+  }
+  .image-box {
+    display: none;
+  }
+
   /* Section: Kontakt */
   #kontakt {
     padding-top: 25px;
