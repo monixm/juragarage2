@@ -15,6 +15,15 @@ body {
   color: #fbcf23;
 }
 
+.red-warning {
+  color: #be0e0d;
+}
+
+.image-shadow {
+  box-shadow: 0 10px 6px -6px #777;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+}
 /* Section: Navbar */
 
 .logo {
@@ -30,7 +39,7 @@ body {
 
 .navbar.bg-light {
   background-color: rgb(236, 236, 236) !important;
-  box-shadow: 1px 1px 80px #888888;
+  box-shadow: 1px 1px 20px #888888;
 }
 .navbar.scrolled {
   background-color: #e7e7e7 !important;
@@ -62,7 +71,7 @@ body {
 }
 .aktuelles-img {
   box-shadow: 0 10px 6px -6px #777;
-  8-webkit-box-shadow: 0 10px 6px -6px #777;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
   margin-top: 20px;
 }
@@ -71,6 +80,14 @@ body {
 }
 .fa-circle {
   color: #fbcf23;
+}
+
+.update-info li {
+  font-size: 1.2rem !important;
+}
+
+#aktuelles a {
+  text-decoration: none;
 }
 
 /* Section: About us - index.html */
