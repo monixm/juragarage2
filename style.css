@@ -456,6 +456,12 @@ fieldset {
   .news {
     font-size: 15px;
   }
+  .multimedia h2 {
+    font-size: 1.2rem;
+  }
+  .update-info p {
+    font-size: 1rem;
+  }
   /* SECTION: ABOUT */
   .section-about {
     height: 600px !important;
