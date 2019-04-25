@@ -235,6 +235,19 @@ body {
 #multimedia img {
   box-shadow: 1px 1px 80px #888888;
 }
+
+.multimedia-button .btn {
+  font-size: 1.1;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  color: rgb(68, 60, 60);
+}
+
+.multimedia-mini-button .btn {
+  background-color: #fbcf23;
+  letter-spacing: 0.1em;
+  color: rgb(68, 60, 60);
+}
 /* Setion: View.html: contact form */
 
 * {
@@ -577,3 +590,5 @@ fieldset {
     max-width: 100%;
   }
 }
+
+
