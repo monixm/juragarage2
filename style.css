@@ -236,23 +236,40 @@ body {
   box-shadow: 1px 1px 80px #888888;
 }
 
-
 .multimedia-button .btn {
   font-size: 1.1;
   letter-spacing: 1.2px;
-  font-weight: 600;
-  color: rgb(68, 60, 60);
+  color: black;
+}
+
+.multimedia-button .btn:hover {
+  font-weight: bold;
 }
 
 .multimedia-mini-button .btn {
   background-color: #fbcf23;
   letter-spacing: 0.1em;
-  color: rgb(68, 60, 60);
+  color: black;
+  font-size: 0.9rem;
+}
+
+.multimedia-mini-button .btn:hover {
+  font-weight: bold;
 }
 
 .border {
   border: 1px solid #fbcf23 !important;
 }
+
+.elektrofahrzeuge-section, .sport-section, .nutzfahrzeuge-section {
+  display: none;
+}
+
+.car-listing .mini-menu {
+  border-top: 1px solid #fbcf23;    
+  border-bottom: 1px solid #fbcf23;    
+}
+
 /* Setion: View.html: contact form */
 
 * {
@@ -398,6 +415,19 @@ fieldset {
 .mini-menu-item {
   display: inline;
 }
+
+.car-listing .mini-menu a {
+  letter-spacing: 0.8px;
+  color: black;
+  font-size: 
+}
+
+.car-listing .mini-menu a:hover {
+  text-decoration: none;
+  color: #f1c820;
+  font-weight: bold;
+}
+
 /* Section: Kontakt - index.html & occasionen.html */
 #kontakt {
   /* min-height: 420px; */
@@ -596,24 +626,4 @@ fieldset {
   }
 }
 
-.elektrofahrzeuge-section, .sport-section, .nutzfahrzeuge-section {
-  display: none;
-}
-
-.car-listing .mini-menu {
-  border-top: 1px solid #fbcf23;    
-  border-bottom: 1px solid #fbcf23;    
-}
-
-.car-listing .mini-menu a {
-  letter-spacing: 0.8px;
-  color: black;
-  font-size: 
-}
-
-.car-listing .mini-menu a:hover {
-  text-decoration: none;
-  color: #f1c820;
-  font-weight: bold;
-}
 
