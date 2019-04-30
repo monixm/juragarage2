@@ -595,3 +595,25 @@ fieldset {
     max-width: 100%;
   }
 }
+
+.elektrofahrzeuge-section, .sport-section, .nutzfahrzeuge-section {
+  display: none;
+}
+
+.car-listing .mini-menu {
+  border-top: 1px solid #fbcf23;    
+  border-bottom: 1px solid #fbcf23;    
+}
+
+.car-listing .mini-menu a {
+  letter-spacing: 0.8px;
+  color: black;
+  font-size: 
+}
+
+.car-listing .mini-menu a:hover {
+  text-decoration: none;
+  color: #f1c820;
+  font-weight: bold;
+}
+

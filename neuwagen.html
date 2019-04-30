@@ -135,37 +135,32 @@
 
     <!-- Section: Car-listing -->
     <section class="car-listing">
-      <h1 class="text-center mt-4 pt-2">
+      <h1 class="text-center mt-4 pt-2 pb-2">
         Renault <span class="yellow-text">Neuwagenpakette</span>
       </h1>
-      <div
-        class="row mt-4 pt-3 m-0 p-0 align-items-center justify-content-center circle"
-      >
-        <i class="fas fa-circle"></i><i class="fas fa-circle"></i
-        ><i class="fas fa-circle"></i>
-      </div>
-      <h3 class="text-center mt-3 pt-3">
-        <strong>Personenwagen</strong></span>
-      </h3>
-      <!-- <div class="mini-menu">
-        <div class="row p-0 m-0 justify-content-center align-items-center">
-          <h6 class="text-center p-2 mini-menu-item">
-            <a href="https://www.juragarage.ch/neuwagen">Personenwagen</a>
+      <div class="mini-menu">
+        <div class="row m-0 p-0 justify-content-center align-items-center">
+          <h6 class="text-center mt-2 p-3 personenwagen-section-menu">
+            <a href='javascript:void();'>Personenwagen</a>
           </h6>
-          <h6 class="text-center p-2 mini-menu-item">
-            <a href="#">Elektrofahrzeuge</a>
+          <h6 class="text-center mt-2 p-3 elektrofahrzeuge-section-menu">
+            <a href='javascript:void();'>Elektrofahrzeuge</a>
           </h6>
-          <h6 class="text-center p-2 mini-menu-item">
-            <a href="#">Renault Sport</a>
+          <h6 class="text-center mt-2 p-3 sport-section-menu">
+            <a href='javascript:void();'>Renault Sport</a>
           </h6>
-          <h6 class="text-center p-2 mini-menu-item">
-            <a href="#">Nutzfahrzeuge</a>
+          <h6 class="text-center mt-2  p-3 nutzfahrzeuge-section-menu">
+            <a href='javascript:void();'>Nutzfahrzeuge</a>
           </h6>
         </div>
-        <div id="result"></div>
-      </div> -->
+      </div>
 
-      <div class="container mt-4 mb-4 pt-4 pb-4">
+      <div class="personenwagen-section">
+      <h3 class="text-center mt-4 pt-3">
+        <strong>Personenwagen</strong></span>
+      </h3>
+
+      <div class="container mt-3 mb-4 pt-4 pb-4">
         <div class="row text-center justify-content-center">
           <div class="col-sm-3">
             <a
@@ -455,17 +450,14 @@
           </div>
         </div>
       </div>
-      <!-- Elektrofahrzeuge -->
-      <div
-      class="row m-0 p-0 align-items-center justify-content-center circle"
-    >
-      <i class="fas fa-circle"></i><i class="fas fa-circle"></i
-      ><i class="fas fa-circle"></i>
     </div>
-    <h3 class="text-center mt-3 pt-3">
+      <!-- Elektrofahrzeuge -->
+    <div class="elektrofahrzeuge-section">
+      
+    <h3 class="text-center mt-4 pt-3">
       <strong>Elektrofahrzeuge</strong>
     </h3>
-      <div class="container mt-4 mb-4 pt-3 pb-3">
+      <div class="container mt-3 mb-4 pt-3 pb-3">
       <div class="container mb-4 pb-4">
         <div class="row m-0 p-0 text-center justify-content-center">
           <div class="col-sm-3">
@@ -535,14 +527,10 @@
         </div>
       </div>
     </div>
+  </div>
       <!-- Renault Sport -->
-        <div
-        class="row m-0 p-0 align-items-center justify-content-center circle"
-      >
-        <i class="fas fa-circle"></i><i class="fas fa-circle"></i
-        ><i class="fas fa-circle"></i>
-      </div>
-      <h3 class="text-center mt-3 pt-3">
+      <div class="sport-section">
+      <h3 class="text-center mt-4 pt-3">
         <strong>Renault Sport</strong>
       </h3>
       <div class="container mt-3 mb-3 pt-4 pb-4">
@@ -633,14 +621,11 @@
         </div>
       </div>
       </div>
+    </div>
+
       <!-- Nutzfahrzeuge -->
-      <div
-        class="row m-0 p-0 align-items-center justify-content-center circle"
-      >
-        <i class="fas fa-circle"></i><i class="fas fa-circle"></i
-        ><i class="fas fa-circle"></i>
-      </div>
-      <h3 class="text-center mt-3 pt-3">
+      <div class="nutzfahrzeuge-section">
+      <h3 class="text-center mt-4 pt-3">
         <strong>Nutzfahrzeuge</strong>
       </h3>
       <div class="container mt-3 mb-3 pt-4 pb-4">
@@ -741,6 +726,7 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
 
     <!-- Section: Neuwagen - external link -->
@@ -844,6 +830,39 @@
       $('.carousel').carousel({
         interval: 2000
       });
+
+      document.querySelector('.elektrofahrzeuge-section-menu').addEventListener('click', function(){
+        // Display all elektrofahrzeuge-section
+        document.querySelector('.elektrofahrzeuge-section').style.display ='block';
+        document.querySelector('.sport-section').style.display ='none';
+        document.querySelector('.nutzfahrzeuge-section').style.display ='none';
+        document.querySelector('.personenwagen-section').style.display ='none';
+      });
+
+      document.querySelector('.sport-section-menu').addEventListener('click', function(){
+        // Display all elektrofahrzeuge-section
+        document.querySelector('.sport-section').style.display ='block';
+        document.querySelector('.elektrofahrzeuge-section').style.display ='none';
+        document.querySelector('.nutzfahrzeuge-section').style.display ='none';
+        document.querySelector('.personenwagen-section').style.display ='none';
+      });
+
+      document.querySelector('.nutzfahrzeuge-section-menu').addEventListener('click', function(){
+        // Display all elektrofahrzeuge-section
+        document.querySelector('.nutzfahrzeuge-section').style.display ='block';
+        document.querySelector('.elektrofahrzeuge-section').style.display ='none';
+        document.querySelector('.sport-section').style.display ='none';
+        document.querySelector('.personenwagen-section').style.display ='none';
+      });
+
+      document.querySelector('.personenwagen-section-menu').addEventListener('click', function(){
+        // Display all elektrofahrzeuge-section
+        document.querySelector('.personenwagen-section').style.display ='block';
+        document.querySelector('.elektrofahrzeuge-section').style.display ='none';
+        document.querySelector('.sport-section').style.display ='none';
+        document.querySelector('.nutzfahrzeuge-section').style.display ='none';
+      });
+
     </script>
   </body>
 </html>
