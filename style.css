@@ -31,7 +31,7 @@ body {
 }
 
 #mainNavbar {
-  background: url(./00127665_Captur_Kadjar_Koleos_50_1_50.jpg);
+  background: url(./compressed/Background_Captur_Kadjar_Koleos.jpg);
   background-size: cover;
   background-position: 50% 80%;
   min-height: 500px;
@@ -200,7 +200,7 @@ body {
 
 /* Section: Neuwagen - occasionen.html */
 #neuwagen {
-  background: url(./Clio_RS_00111300_49.jpg);
+  background: url(./compressed/Background_Clio_RS.jpg);
   background-position: 50% 50%;
   background-size: cover;
   min-height: 450px;
