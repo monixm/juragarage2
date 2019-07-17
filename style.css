@@ -196,6 +196,7 @@ body {
   box-shadow: 0 10px 6px -6px #777;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
+ 
 }
 
 /* Section: Neuwagen - occasionen.html */
@@ -626,4 +627,51 @@ fieldset {
   }
 }
 
+
+/* TESTING */
+
+.price-margin-align {
+  margin-top: 20px;
+}
+
+.img-margin-adjust-0 {
+  margin-top: 25px;
+}
+
+.col-sm-4-zoe {
+  height: 640px !important;
+  width: 280px !important;
+}
+
+.price-and-other-0 {
+  position: relative;
+  bottom: 13px;
+}
+
+.mt-adj-1 {
+  margin-top: -16px;
+}
+
+.mt-adj-2 {
+  margin-top: 20px;
+}
+
+/* RENAULT MÉGANE Grandtour */
+.mt-adj-3 {
+  margin-top: -20px;
+}
+
+.pos-rel-1 {
+  position: relative;
+  top: 20px;
+}
+
+/* RENAULT ZOE Intens */ 
+.mt-adj-4 {
+  margin-top: -8px;
+}
+
+.text-white {
+  color: white;
+}
 
