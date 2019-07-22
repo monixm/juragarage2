@@ -11,9 +11,9 @@
       function gtag() {
         dataLayer.push(arguments);
       }
-      gtag('js', new Date());
+      gtag("js", new Date());
 
-      gtag('config', 'UA-131763085-1');
+      gtag("config", "UA-131763085-1");
     </script>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -50,23 +50,23 @@
     />
     <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
     <script>
-      window.addEventListener('load', function() {
+      window.addEventListener("load", function() {
         window.cookieconsent.initialise({
           palette: {
             popup: {
-              background: '#252e39'
+              background: "#252e39"
             },
             button: {
-              background: '#14a7d0'
+              background: "#14a7d0"
             }
           },
-          theme: 'edgeless',
+          theme: "edgeless",
           content: {
             message:
-              'Diese Website verwendet Cookies, um sicherzustellen, dass Sie die bestmögliche Browser-Erfahrung erhalten.',
-            dismiss: 'Akzeptieren',
-            link: 'Mehr Informationen',
-            href: 'https://www.juragarage.ch/cookies'
+              "Diese Website verwendet Cookies, um sicherzustellen, dass Sie die bestmögliche Browser-Erfahrung erhalten.",
+            dismiss: "Akzeptieren",
+            link: "Mehr Informationen",
+            href: "https://www.juragarage.ch/cookies"
           }
         });
       });
@@ -74,8 +74,7 @@
   </head>
 
   <body>
-    <section class="navbar-trans" id="mainNavbar">
-      <!-- As a heading -->
+    <section id="mainNavbar">
       <nav
         id="scrollNav"
         class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
@@ -89,8 +88,8 @@
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -99,18 +98,23 @@
 
         <div
           class="collapse navbar-collapse justify-content-end"
-          id="navbarTogglerDemo02"
+          id="navbarTogglerDemo03"
         >
           <ul class="navbar-nav mr-5 mt-2 mt-lg-0">
             <!-- mr: margin, mt: margin-top -->
             <li class="nav-item">
-              <a class="nav-link" href="./index.html"
+              <a class="nav-link" href="https://www.juragarage.ch/"
                 ><i class="fas fa-home"></i>Aktuelles</a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://www.juragarage.ch/occasionen"
                 >Occasionen</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="https://www.juragarage.ch/neuwagen"
+                >Neuwagen</a
               >
             </li>
             <li class="nav-item">
@@ -269,7 +273,7 @@
     <script src="https://www.autoscout24.ch/MVC/Content/as24-hci-desktop/js/e.min.js"></script>
 
     <script>
-      $('.carousel').carousel({
+      $(".carousel").carousel({
         interval: 2000
       });
     </script>
