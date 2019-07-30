@@ -69,15 +69,14 @@ body {
   background-color: #f8f8f8;
   /* min-height: 650px; */
 }
+
 .aktuelles-img {
   box-shadow: 0 10px 6px -6px #777;
   -webkit-box-shadow: 0 10px 6px -6px #777;
   -moz-box-shadow: 0 10px 6px -6px #777;
   margin-top: 20px;
 }
-.news {
-  line-height: 1.7;
-}
+
 .fa-circle {
   color: #fbcf23;
 }
