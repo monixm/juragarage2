@@ -673,3 +673,7 @@ fieldset {
 .text-white {
   color: white;
 }
+
+.adjusted-margin {
+  margin-top: 1.5rem;
+}
