@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "RenaultLife";
-  src: url("./fonts/RenaultLife");
-  src: url("./fonts/RenaultLife/RenaultLife-Bold.otf");
-  src: url("./fonts/RenaultLife/RenaultLife-Regular.otf");
+  font-family: 'RenaultLife';
+  src: url('./fonts/RenaultLife');
+  src: url('./fonts/RenaultLife/RenaultLife-Bold.otf');
+  src: url('./fonts/RenaultLife/RenaultLife-Regular.otf');
 }
 
 html,
 body {
-  font-family: "RenaultLife", sans-serif;
+  font-family: 'RenaultLife', sans-serif;
   height: 100%;
 }
 
@@ -30,10 +30,16 @@ body {
   height: 40px;
 }
 
-#mainNavbar {
+/* #mainNavbar {
   background: url(./compressed/Background_Captur_Kadjar_Koleos.jpg);
   background-size: cover;
   background-position: 50% 80%;
+  min-height: 500px;
+} */
+#mainNavbar {
+  background: url(./compressed/background.jpg);
+  background-size: cover;
+  background-position: 50% 40%;
   min-height: 500px;
 }
 
@@ -286,13 +292,13 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
+#contact input[type='text'],
+#contact input[type='email'],
+#contact input[type='tel'],
+#contact input[type='url'],
 #contact textarea,
-#contact button[type="submit"] {
-  font: 400 12px/16px "Open Sans", Helvetica, Arial, sans-serif;
+#contact button[type='submit'] {
+  font: 400 12px/16px 'Open Sans', Helvetica, Arial, sans-serif;
 }
 
 #contact {
@@ -322,10 +328,10 @@ fieldset {
   width: 100%;
 }
 
-#contact input[type="text"],
-#contact input[type="email"],
-#contact input[type="tel"],
-#contact input[type="url"],
+#contact input[type='text'],
+#contact input[type='email'],
+#contact input[type='tel'],
+#contact input[type='url'],
 #contact textarea {
   width: 100%;
   border: 1px solid #ccc;
@@ -334,10 +340,10 @@ fieldset {
   padding: 10px;
 }
 
-#contact input[type="text"]:hover,
-#contact input[type="email"]:hover,
-#contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
+#contact input[type='text']:hover,
+#contact input[type='email']:hover,
+#contact input[type='tel']:hover,
+#contact input[type='url']:hover,
 #contact textarea:hover {
   -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
@@ -351,7 +357,7 @@ fieldset {
   resize: none;
 }
 
-#contact button[type="submit"] {
+#contact button[type='submit'] {
   cursor: pointer;
   width: 100%;
   border: none;
@@ -362,14 +368,14 @@ fieldset {
   font-size: 15px;
 }
 
-#contact button[type="submit"]:hover {
+#contact button[type='submit']:hover {
   background: #fbcf23;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
 }
 
-#contact button[type="submit"]:active {
+#contact button[type='submit']:active {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 #contact input:focus,
