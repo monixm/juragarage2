@@ -175,8 +175,30 @@ body {
 }
 
 /* Section: Ocassionen - occasionen.html */
+.car-name {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.short-desc {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #fbcf23;
+  min-height: 110px;
+}
+
+.detailed-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #viewoccasionen {
   border-top: 1px solid #fbcf23 !important;
+}
+.car-name {
+  border-bottom: 1px solid #fbcf23;
 }
 
 .price {
@@ -198,7 +220,6 @@ body {
 }
 
 /* Section: Neuwagen - occasionen.html */
-
 /* #neuwagen {
   background: url(./compressed/Background_Clio_RS.jpg);
   background-position: 50% 50%;
@@ -684,25 +705,4 @@ fieldset {
 
 .adjusted-margin {
   margin-top: 1.5rem;
-}
-
-/* TEST */
-
-.car-name {
-  min-height: 80px;
-  display: flex;
-  align-items: center;
-}
-
-.short-desc {
-  display: flex;
-  align-items: center;
-  border-top: 1px solid #fbcf23;
-  min-height: 110px;
-}
-
-.detailed-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
