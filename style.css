@@ -291,7 +291,8 @@ body {
 
 .elektrofahrzeuge-section,
 .sport-section,
-.nutzfahrzeuge-section {
+.nutzfahrzeuge-section,
+.hybridfahrzeuge-section {
   display: none;
 }
 

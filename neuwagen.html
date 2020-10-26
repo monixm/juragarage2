@@ -161,9 +161,8 @@
 
       <div class="personenwagen-section">
       <h3 class="text-center mt-4 pt-3">
-        <strong>Personenwagen</strong></span>
+        <strong>Personenwagen</strong>
       </h3>
-
       <div class="container mt-3 mb-4 pt-4 pb-4">
         <div class="row text-center justify-content-center">
           <div class="col-sm-3">
@@ -240,7 +239,7 @@
               target="_blank"
               ><img class="img-fluid" src="neuwagen/images/neuer_megane.png"
             /></a>
-            <br></br>  
+            <br>
             <p>NEUER MEGANE</p>
             <p class="neuwagen-preise">Ab CHF 25’800</p>
             <a
@@ -445,7 +444,6 @@
     </div>
       <!-- Elektrofahrzeuge -->
     <div class="elektrofahrzeuge-section">
-      
     <h3 class="text-center mt-4 pt-3">
       <strong>Elektrofahrzeuge</strong>
     </h3>
@@ -539,7 +537,6 @@
       </div>
     </div>
   </div>
-
     <!-- Hybridfahrzeuge-->
     <div class="hybridfahrzeuge-section">
       <h3 class="text-center mt-4 pt-3">
@@ -603,7 +600,7 @@
       </div>
       </div>
     </div>
-
+    
       <!-- Renault Sport -->
       <div class="sport-section">
       <h3 class="text-center mt-4 pt-3">
@@ -850,6 +847,16 @@
         document.querySelector('.hybridfahrzeuge-section').style.display ='none';
       });
 
+      document.querySelector('.hybridfahrzeuge-section-menu').addEventListener('click', function(){
+        // Display all cars for hybridfahrzeuge-section
+        document.querySelector('.hybridfahrzeuge-section').style.display ='block';
+        document.querySelector('.elektrofahrzeuge-section').style.display ='none';
+        document.querySelector('.sport-section').style.display ='none';
+        document.querySelector('.nutzfahrzeuge-section').style.display ='none';
+        document.querySelector('.personenwagen-section').style.display ='none';
+     
+      });
+
       document.querySelector('.sport-section-menu').addEventListener('click', function(){
         // Display all cars for sport-section
         document.querySelector('.sport-section').style.display ='block';
@@ -875,15 +882,6 @@
         document.querySelector('.sport-section').style.display ='none';
         document.querySelector('.nutzfahrzeuge-section').style.display ='none';
         document.querySelector('.hybridfahrzeuge-section').style.display ='none';
-      });
-
-      document.querySelector('.hybridfahrzeuge-section-menu').addEventListener('click', function(){
-        // Display all cars for hybridfahrzeuge-section
-        document.querySelector('.hybridfahrzeuge-section').style.display ='block';
-        document.querySelector('.sport-section').style.display ='none';
-        document.querySelector('.nutzfahrzeuge-section').style.display ='none';
-        document.querySelector('.personenwagen-section').style.display ='none';
-        document.querySelector('.elektrofahrzeuge-section').style.display ='none';
       });
 
     </script>
