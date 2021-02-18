@@ -37,7 +37,7 @@ body {
   min-height: 500px;
 } */
 #mainNavbar {
-  background: url(./compressed/background.jpg);
+  background: url(./compressed/background-min.jpg);
   background-size: cover;
   background-position: 50% 40%;
   min-height: 500px;
