@@ -30,12 +30,6 @@ body {
   height: 40px;
 }
 
-/* #mainNavbar {
-  background: url(./compressed/Background_Captur_Kadjar_Koleos.jpg);
-  background-size: cover;
-  background-position: 50% 80%;
-  min-height: 500px;
-} */
 #mainNavbar {
   background: url(./compressed/background-min.jpg);
   background-size: cover;
@@ -654,6 +648,10 @@ fieldset {
     float: left;
     width: 25%;
     max-width: 100%;
+  }
+
+  #carouselExampleSlidesOnly {
+    margin-top: 1rem !important;
   }
 }
 
