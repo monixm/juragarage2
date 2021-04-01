@@ -649,10 +649,6 @@ fieldset {
     width: 25%;
     max-width: 100%;
   }
-
-  #carouselExampleSlidesOnly {
-    margin-top: 1rem !important;
-  }
 }
 
 /* TESTING */
